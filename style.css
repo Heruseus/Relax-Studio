@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(224, 244, 252);
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+
+}
+
+header{
+    height: 200px;
+    width: 100%;
+    background-image: url(./img/10-gode-tips-til-afslapning.1457540773.jpg);
+}
+
+.hero_banner{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    padding: 47px 45px;
+}
+
+.hero_banner li{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.hero_banner a{
+    text-decoration: none;
+}
+
+.color{
+    height: 30px;
+    padding: 5px 0;
+    color: black;
+}
+
+.color1{
+    background-color: rgb(125, 213, 245);
+    margin-bottom: 25px;
+
+}
+
+.color2{
+    background-color: white;
+}
+
+
+/*Footer*/
