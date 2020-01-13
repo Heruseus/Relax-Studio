@@ -12,6 +12,7 @@ h1{
     font-size: 36px;
     font-weight: bold;
     text-align: center;
+    color: rgb(134, 134, 134);
 }
 
 h2{
@@ -19,42 +20,36 @@ h2{
 }
 
 header{
-    height: 200px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 300px;
     background-image: url(./img/10-gode-tips-til-afslapning.1457540773.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.hero_banner{
-    display: block;
-    list-style-type: none;
-    text-align: center;
-    padding: 47px 45px;
-}
-
-.hero_banner li{
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
-.hero_banner a{
+/*button styling*/
+.button{
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
+    min-width: 200px;
+    max-width: 400px;
+    padding: 20px 10px;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: black;
 }
 
-.color{
-    height: 30px;
-    padding: 5px 0;
-    color: black;
-}
-
-.color1{
+.button-primary{
     background-color: rgb(125, 213, 245);
-    margin-bottom: 25px;
-
 }
 
-.color2{
+.button-secondary{
     background-color: white;
 }
 
