@@ -86,8 +86,7 @@ footer{
     flex-direction: column;
     text-align: center;
     background-color: rgb(226, 226, 226);
-    height: 100%;
-    padding: 0;
+    padding: 25px;
     margin: 0;
 }
 
@@ -95,6 +94,10 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.text-nederst{
+    margin: 50px;
 }
 
 /*Kontakt*/
